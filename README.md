@@ -10,7 +10,7 @@ In other words, polymorphism allows you define one interface and have multiple i
 
 A method is a set of code which is referred to by name and can be called (invoked) at any point in a program simply by utilizing the method’s name.
 
-First Type of Polymorphism in Java is: Method Overloading
+First Type of Polymorphism in Java is: Compile time polymorphism also called Method Overloading
 
 In Java, it is possible to define two or more methods of same name in a class, provided that there argument list or parameters are different.
 
@@ -32,7 +32,7 @@ class Polymorphism
 }
 ```
 
-Second Type of Polymorphism in Java is: Method Overriding
+Second Type of Polymorphism in Java is: Runtime polymorphism also called Method Overriding
 
 ```java
 public class FirstClass
