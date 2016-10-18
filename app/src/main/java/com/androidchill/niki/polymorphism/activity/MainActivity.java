@@ -5,9 +5,9 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.androidchill.niki.polymorphism.R;
-import com.androidchill.niki.polymorphism.models.Employee;
-import com.androidchill.niki.polymorphism.models.Overload;
-import com.androidchill.niki.polymorphism.models.Salary;
+import com.androidchill.niki.polymorphism.model.Employee;
+import com.androidchill.niki.polymorphism.model.Overload;
+import com.androidchill.niki.polymorphism.model.Salary;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         Salary s = new Salary("Niki Izvorski", "Ambehta, UP", 3, 3600.00);
 
         //Base Object with References from the Second
-        Employee e = new Salary("John Adams", "Boston, MA", 2, 2400.00);
+        Employee e = new Salary("Mihail Petrov", "Boston, MA", 2, 2400.00);
 
         //Create Object for Method Overloading
         Overload overload = new Overload();

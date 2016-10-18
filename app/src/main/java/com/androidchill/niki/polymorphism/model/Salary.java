@@ -1,4 +1,4 @@
-package com.androidchill.niki.polymorphism.models;
+package com.androidchill.niki.polymorphism.model;
 
 /**
  * Created by NIKI on 10/18/2016.

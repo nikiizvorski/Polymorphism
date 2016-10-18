@@ -1,6 +1,4 @@
-package com.androidchill.niki.polymorphism.models;
-
-import android.widget.Toast;
+package com.androidchill.niki.polymorphism.model;
 
 /**
  * Created by NIKI on 10/18/2016.

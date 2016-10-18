@@ -1,4 +1,4 @@
-package com.androidchill.niki.polymorphism.models;
+package com.androidchill.niki.polymorphism.model;
 
 /**
  * Created by NIKI on 10/18/2016.
@@ -29,6 +29,11 @@ public class Overload {
     //Example 4
     public double demo(double a) {
         return a*a;
+    }
+
+    //Example 5
+    public double demo(double a, double b) {
+        return a*a + b*b;
     }
 
 }
