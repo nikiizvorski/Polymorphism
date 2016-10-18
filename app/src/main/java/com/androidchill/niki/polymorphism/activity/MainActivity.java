@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         tx2 = (TextView) findViewById(R.id.textView3);
 
         //Create Objects
-        Salary s = new Salary("Mohd Mohtashim", "Ambehta, UP", 3, 3600.00);
+        Salary s = new Salary("Niki Izvorski", "Ambehta, UP", 3, 3600.00);
         Employee e = new Salary("John Adams", "Boston, MA", 2, 2400.00);
 
         //Create Object
