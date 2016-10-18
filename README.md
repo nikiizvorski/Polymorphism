@@ -68,6 +68,59 @@ public class Main
      }
 }
 ```
+#Encapsulation Employee Class
+
+Encapsulation is one of the four fundamental OOP concepts. The other three are inheritance, polymorphism, and abstraction.
+
+Encapsulation in Java is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. 
+
+In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class. Therefore, it is also known as data hiding.
+
+How can you achieve that well you have to:
+- You have to declare variables of a class private
+- provide public setter and getter methods to modify and view the variables values.
+
+Here it is an example we achieved that:
+
+```java
+public class Employee {
+    private String name;
+    private String mail;
+    private String address;
+    private int number;
+
+    //Base Class
+    public Employee(String name, String address, int number) {
+        this.name = name;
+        this.address = address;
+        this.number = number;
+    }
+
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
+
+    public String toString() {
+        return name + " " + address + " " + number;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String newAddress) {
+        address = newAddress;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+}
+```
 
 ## Getting Started
 
