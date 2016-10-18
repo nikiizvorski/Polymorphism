@@ -26,25 +26,34 @@ public class MainActivity extends AppCompatActivity {
         tx1 = (TextView) findViewById(R.id.textView2);
         tx2 = (TextView) findViewById(R.id.textView3);
 
-        //Create Objects
+        //Create Objects as you can see polymorphism
         Salary s = new Salary("Niki Izvorski", "Ambehta, UP", 3, 3600.00);
+
+        //Base Object with References from the Second
         Employee e = new Salary("John Adams", "Boston, MA", 2, 2400.00);
 
-        //Create Object
+        //Create Object for Method Overloading
         Overload overload = new Overload();
 
-        //First
+        //First method
         overload.demo(5);
 
-        //Second
+        //Second method
         overload.demo(5,5);
 
-        //Third
+        //Third method
+        overload.demo(3,4,5);
+
+        //Fourth method
         double result = overload.demo(5.5);
 
-        //setText to TextViews
+        //Using Method override from the super class
         tx.setText(s.mailCheck());
+
+        //Using Base Method
         tx1.setText(e.mailCheck());
+
+        //Set Text from result
         tx2.setText("O/P : " + result);
     }
 }
